@@ -1,0 +1,19 @@
+<h1>Links</h1>
+<nav class="nav justify-content-center nav-pills flex-column">
+    <a class="nav-link active" href="/cad">Post</a>
+</nav>
+<h1> Feed </h1>
+
+
+{{#each posts}}
+
+    <small>{{id}}</small>
+    <h2>{{titulo}}</h2>
+    <p>{{conteudo}}</p>
+    <nav class="nav justify-content-center nav-pills flex-column">
+    <a class="nav-link active" href="/deletar/{{id}}">Deletar</a>
+    </nav>
+
+
+{{/each}}
+
