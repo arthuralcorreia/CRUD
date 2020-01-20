@@ -1,6 +1,6 @@
 # CRUD Simples
 
-ALugumas considerações para que o software rode.
+Algumas considerações para que o software rode.
 
 -Para iniciar o software.
 
